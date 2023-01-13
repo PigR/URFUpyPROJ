@@ -1,0 +1,98 @@
+{% extends "main/index.html" %}
+{% load static %}
+
+{% block content %}
+  <style type="text/css">
+    img[class="chart"] {
+      float: top; /* Обтекание картинки по левому краю */
+      margin-left: 420px;
+    }
+    legend[class="legend"] {
+      text-align: center;
+    }
+  </style>
+  <div class="main">
+    <p align="center">Динамика средней зарплаты по годам (backend-разработчик)</p>
+    {% for key, value in salary_year_backend %}
+      <img class="chart" src="{{ value.chart }}" height="400" width="600">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <legend class="legend" align="center">Динамика средней зарплаты по годам (backend-разработчик)</legend align="center">
+            <td align="center">Год</th>
+            <td align="center">Зарплата</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- тут jinja сняла с себя свои полномочия.. -->
+          <tr>
+            <td align="center">2010</td>
+            <td align="center">{{ value.2010 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2011</td>
+            <td align="center">{{ value.2011 }} {{ key }} </td>
+          </tr>
+          <tr>
+            <td align="center">2012</td>
+            <td align="center">{{ value.2012 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2013</td>
+            <td align="center">{{ value.2013 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2014</td>
+            <td align="center">{{ value.2014 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2015</td>
+            <td align="center">{{ value.2015 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2016</td>
+            <td align="center">{{ value.2016 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2017</td>
+            <td align="center">{{ value.2017 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2018</td>
+            <td align="center">{{ value.2018 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2019</td>
+            <td align="center">{{ value.2019 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2020</td>
+            <td align="center">{{ value.2020 }} {{ key }}</td>
+          </tr>
+          <tr>
+            <td align="center">2021</td>
+            <td align="center">{{ value.2021 }} {{ key }}</td>
+          </tr> 
+        </tbody>
+      </table>
+    {% endfor %}
+    <p align="center">Динамика кол-ва вакансий по годам (backend-разработчик)</p>
+    <img class="chart" src="{{ qnt_vacancies_year_chart_backend }}" height="400" width="600">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <td align="center">Год</th>
+          <td align="center">Число вакансий</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for year, qnt_vacancies in qnt_vacancies_year_backend %}
+          <tr>
+            <td align="center">{{ year }}</td>
+            <td align="center">{{ qnt_vacancies }} {{ key }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock content %}

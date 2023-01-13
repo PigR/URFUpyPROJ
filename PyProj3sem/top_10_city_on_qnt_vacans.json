@@ -1,0 +1,585 @@
+[
+  [
+    "Москва",
+    {
+      "2010": {
+        "middle_salary_vacancies": 63000.0,
+        "counter": 5
+      },
+      "2011": {
+        "middle_salary_vacancies": 63125.0,
+        "counter": 4
+      },
+      "2012": {
+        "middle_salary_vacancies": 86249.99,
+        "counter": 8
+      },
+      "2013": {
+        "middle_salary_vacancies": 95000.01,
+        "counter": 20
+      },
+      "2014": {
+        "middle_salary_vacancies": 93833.34,
+        "counter": 15
+      },
+      "2015": {
+        "middle_salary_vacancies": 97184.78,
+        "counter": 46
+      },
+      "2016": {
+        "middle_salary_vacancies": 105687.53,
+        "counter": 72
+      },
+      "2017": {
+        "middle_salary_vacancies": 117790.21,
+        "counter": 133
+      },
+      "2018": {
+        "middle_salary_vacancies": 131475.63,
+        "counter": 197
+      },
+      "2019": {
+        "middle_salary_vacancies": 130510.33,
+        "counter": 194
+      },
+      "2020": {
+        "middle_salary_vacancies": 140456.98,
+        "counter": 195
+      },
+      "2021": {
+        "middle_salary_vacancies": 154434.78,
+        "counter": 101
+      }
+    }
+  ],
+  [
+    "Санкт-Петербург",
+    {
+      "2012": {
+        "middle_salary_vacancies": 65000.0,
+        "counter": 4
+      },
+      "2013": {
+        "middle_salary_vacancies": 60000.0,
+        "counter": 4
+      },
+      "2014": {
+        "middle_salary_vacancies": 70250.0,
+        "counter": 10
+      },
+      "2015": {
+        "middle_salary_vacancies": 83888.89,
+        "counter": 18
+      },
+      "2016": {
+        "middle_salary_vacancies": 90909.1,
+        "counter": 66
+      },
+      "2017": {
+        "middle_salary_vacancies": 104319.15,
+        "counter": 47
+      },
+      "2018": {
+        "middle_salary_vacancies": 104098.18,
+        "counter": 83
+      },
+      "2019": {
+        "middle_salary_vacancies": 116108.26,
+        "counter": 97
+      },
+      "2020": {
+        "middle_salary_vacancies": 118228.75,
+        "counter": 80
+      },
+      "2021": {
+        "middle_salary_vacancies": 135559.63,
+        "counter": 52
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Новосибирск",
+    {
+      "2014": {
+        "middle_salary_vacancies": 2500.0,
+        "counter": 1
+      },
+      "2015": {
+        "middle_salary_vacancies": 71666.67,
+        "counter": 6
+      },
+      "2016": {
+        "middle_salary_vacancies": 33666.67,
+        "counter": 6
+      },
+      "2017": {
+        "middle_salary_vacancies": 77250.0,
+        "counter": 11
+      },
+      "2018": {
+        "middle_salary_vacancies": 83281.26,
+        "counter": 16
+      },
+      "2019": {
+        "middle_salary_vacancies": 77794.11,
+        "counter": 34
+      },
+      "2020": {
+        "middle_salary_vacancies": 103480.0,
+        "counter": 15
+      },
+      "2021": {
+        "middle_salary_vacancies": 113750.0,
+        "counter": 12
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2012": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2013": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Екатеринбург",
+    {
+      "2012": {
+        "middle_salary_vacancies": 52500.0,
+        "counter": 2
+      },
+      "2014": {
+        "middle_salary_vacancies": 30000.0,
+        "counter": 1
+      },
+      "2015": {
+        "middle_salary_vacancies": 47500.0,
+        "counter": 4
+      },
+      "2016": {
+        "middle_salary_vacancies": 56923.08,
+        "counter": 13
+      },
+      "2017": {
+        "middle_salary_vacancies": 88382.36,
+        "counter": 17
+      },
+      "2018": {
+        "middle_salary_vacancies": 90156.24,
+        "counter": 16
+      },
+      "2019": {
+        "middle_salary_vacancies": 106062.49,
+        "counter": 16
+      },
+      "2020": {
+        "middle_salary_vacancies": 108333.34,
+        "counter": 18
+      },
+      "2021": {
+        "middle_salary_vacancies": 86874.99,
+        "counter": 8
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2013": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Алматы",
+    {
+      "2015": {
+        "middle_salary_vacancies": 69460.0,
+        "counter": 5
+      },
+      "2016": {
+        "middle_salary_vacancies": 188333.33,
+        "counter": 3
+      },
+      "2017": {
+        "middle_salary_vacancies": 289285.72,
+        "counter": 14
+      },
+      "2018": {
+        "middle_salary_vacancies": 178362.51,
+        "counter": 12
+      },
+      "2019": {
+        "middle_salary_vacancies": 249166.66,
+        "counter": 12
+      },
+      "2020": {
+        "middle_salary_vacancies": 527105.27,
+        "counter": 19
+      },
+      "2021": {
+        "middle_salary_vacancies": 453125.0,
+        "counter": 8
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2012": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2013": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2014": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Минск",
+    {
+      "2013": {
+        "middle_salary_vacancies": 1433.33,
+        "counter": 3
+      },
+      "2014": {
+        "middle_salary_vacancies": 1837.5,
+        "counter": 4
+      },
+      "2015": {
+        "middle_salary_vacancies": 6828.57,
+        "counter": 7
+      },
+      "2016": {
+        "middle_salary_vacancies": 1138.89,
+        "counter": 18
+      },
+      "2017": {
+        "middle_salary_vacancies": 1635.17,
+        "counter": 6
+      },
+      "2018": {
+        "middle_salary_vacancies": 17938.89,
+        "counter": 9
+      },
+      "2019": {
+        "middle_salary_vacancies": 2355.56,
+        "counter": 9
+      },
+      "2020": {
+        "middle_salary_vacancies": 14342.86,
+        "counter": 7
+      },
+      "2021": {
+        "middle_salary_vacancies": 19383.33,
+        "counter": 6
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2012": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Казань",
+    {
+      "2012": {
+        "middle_salary_vacancies": 25000.0,
+        "counter": 2
+      },
+      "2014": {
+        "middle_salary_vacancies": 25000.0,
+        "counter": 1
+      },
+      "2015": {
+        "middle_salary_vacancies": 75000.0,
+        "counter": 1
+      },
+      "2016": {
+        "middle_salary_vacancies": 62500.0,
+        "counter": 2
+      },
+      "2017": {
+        "middle_salary_vacancies": 96874.99,
+        "counter": 8
+      },
+      "2018": {
+        "middle_salary_vacancies": 96666.67,
+        "counter": 12
+      },
+      "2019": {
+        "middle_salary_vacancies": 90576.91,
+        "counter": 13
+      },
+      "2020": {
+        "middle_salary_vacancies": 135555.56,
+        "counter": 9
+      },
+      "2021": {
+        "middle_salary_vacancies": 69400.0,
+        "counter": 5
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2013": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Нижний Новгород",
+    {
+      "2012": {
+        "middle_salary_vacancies": 58500.0,
+        "counter": 1
+      },
+      "2013": {
+        "middle_salary_vacancies": 60250.0,
+        "counter": 8
+      },
+      "2014": {
+        "middle_salary_vacancies": 40000.0,
+        "counter": 1
+      },
+      "2015": {
+        "middle_salary_vacancies": 70000.0,
+        "counter": 3
+      },
+      "2016": {
+        "middle_salary_vacancies": 47500.0,
+        "counter": 2
+      },
+      "2017": {
+        "middle_salary_vacancies": 79545.45,
+        "counter": 11
+      },
+      "2018": {
+        "middle_salary_vacancies": 85999.99,
+        "counter": 10
+      },
+      "2019": {
+        "middle_salary_vacancies": 96428.57,
+        "counter": 7
+      },
+      "2020": {
+        "middle_salary_vacancies": 61000.0,
+        "counter": 8
+      },
+      "2021": {
+        "middle_salary_vacancies": 76000.0,
+        "counter": 2
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Ростов-на-Дону",
+    {
+      "2015": {
+        "middle_salary_vacancies": 60000.0,
+        "counter": 2
+      },
+      "2016": {
+        "middle_salary_vacancies": 90000.0,
+        "counter": 1
+      },
+      "2017": {
+        "middle_salary_vacancies": 51666.67,
+        "counter": 3
+      },
+      "2018": {
+        "middle_salary_vacancies": 64062.5,
+        "counter": 8
+      },
+      "2019": {
+        "middle_salary_vacancies": 85826.94,
+        "counter": 26
+      },
+      "2020": {
+        "middle_salary_vacancies": 89200.0,
+        "counter": 10
+      },
+      "2021": {
+        "middle_salary_vacancies": 104166.67,
+        "counter": 3
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2012": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2013": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2014": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Челябинск",
+    {
+      "2015": {
+        "middle_salary_vacancies": 100000.0,
+        "counter": 1
+      },
+      "2017": {
+        "middle_salary_vacancies": 66250.01,
+        "counter": 12
+      },
+      "2018": {
+        "middle_salary_vacancies": 78843.76,
+        "counter": 16
+      },
+      "2019": {
+        "middle_salary_vacancies": 81944.44,
+        "counter": 9
+      },
+      "2020": {
+        "middle_salary_vacancies": 91000.0,
+        "counter": 5
+      },
+      "2021": {
+        "middle_salary_vacancies": 118916.67,
+        "counter": 6
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2012": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2013": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2014": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2016": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ],
+  [
+    "Пермь",
+    {
+      "2013": {
+        "middle_salary_vacancies": 55000.0,
+        "counter": 1
+      },
+      "2014": {
+        "middle_salary_vacancies": 63750.0,
+        "counter": 4
+      },
+      "2015": {
+        "middle_salary_vacancies": 65000.0,
+        "counter": 5
+      },
+      "2016": {
+        "middle_salary_vacancies": 80555.56,
+        "counter": 9
+      },
+      "2017": {
+        "middle_salary_vacancies": 90833.33,
+        "counter": 6
+      },
+      "2018": {
+        "middle_salary_vacancies": 67812.51,
+        "counter": 8
+      },
+      "2019": {
+        "middle_salary_vacancies": 82500.0,
+        "counter": 8
+      },
+      "2020": {
+        "middle_salary_vacancies": 81250.0,
+        "counter": 4
+      },
+      "2021": {
+        "middle_salary_vacancies": 62500.0,
+        "counter": 2
+      },
+      "2010": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2011": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      },
+      "2012": {
+        "middle_salary_vacancies": 0,
+        "counter": 0
+      }
+    }
+  ]
+]

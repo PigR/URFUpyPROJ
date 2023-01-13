@@ -1,0 +1,82 @@
+{% extends "main/index.html" %}
+{% load static %}
+
+
+{% block content %}
+  <style type="text/css">
+    img[class="chart"] {
+      float: top; /* Обтекание картинки по левому краю */
+      margin-left: 420px;
+    }
+    legend[class="legend"] {
+      text-align: center;
+    }
+  </style>
+  <div class="main">
+  	 <p align="center">Динамика средней зарплаты в разных городах (backend-разработчик)</p>
+  	{% for city, values in tables %}
+  		<img class="chart" src="{{ values.chart }}" height="400" width="600">
+  		{% if city != "chart" %}
+		  	<table class="table table-bordered">
+			    <thead>
+			      <tr>
+			        <legend class="legend" align="center">Динамика средней зарплаты в городе {{ city }} (backend-разработчик)</legend align="center">
+			        <td align="center">Год</th>
+			        <td align="center">Зарплата</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+	            <td align="center">2010</td>
+	            <td align="center">{{ values.2010 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2011</td>
+	            <td align="center">{{ values.2011 }} RUR </td>
+	          </tr>
+	          <tr>
+	            <td align="center">2012</td>
+	            <td align="center">{{ values.2012 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2013</td>
+	            <td align="center">{{ values.2013 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2014</td>
+	            <td align="center">{{ values.2014 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2015</td>
+	            <td align="center">{{ values.2015 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2016</td>
+	            <td align="center">{{ values.2016 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2017</td>
+	            <td align="center">{{ values.2017 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2018</td>
+	            <td align="center">{{ values.2018 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2019</td>
+	            <td align="center">{{ values.2019 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2020</td>
+	            <td align="center">{{ values.2020 }} RUR</td>
+	          </tr>
+	          <tr>
+	            <td align="center">2021</td>
+	            <td align="center">{{ values.2021 }} RUR</td>
+	          </tr> 
+		      </tbody>
+				</table>
+			{% endif %}
+		{% endfor %}
+  </div>
+{% endblock content %}

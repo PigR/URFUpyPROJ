@@ -1,0 +1,34 @@
+div[class="text-content"] {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	top: -100px;
+	left: 300px;
+	right: 70px;
+	bottom: 20px;
+}
+
+div[class="image-content"] {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	top: -100px;
+	left: 300px;
+	right: 70px;
+	bottom: 20px;
+}
+
+h2[class="logo"] {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	left: -200px;
+	top: 200px;
+	color: red;
+}
+
+footer[class="foot"] {
+	position: absolute;
+	text-align: center;
+	margin-left: 20px;
+}

@@ -1,0 +1,43 @@
+{% extends "main/index.html" %}
+{% load static %}
+
+{% block content %}
+  <style type="text/css">
+    img[class="chart"] {
+      float: top; /* Обтекание картинки по левому краю */
+      margin-left: 420px;
+    }
+    legend[class="legend"] {
+      text-align: center;
+    }
+  </style>
+  <div class="main">
+    <p align="center">Топ-10 навыков по годам (backend-разработчик)</p>
+    {% for pack, values in tables %}
+      {% for year, chart in pack %}
+        {% if year != 1 %}
+          <img class="chart" src="{{ chart }}" height="400" width="600">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <legend class="legend" align="center">Топ-10 навыков за {{ year }} год (backend-разработчик)</legend align="center">
+                <td align="center">Навык</th>
+                <td align="center">Число вакансий на навык</th>
+              </tr>
+            </thead>
+          {% endif %}
+        {% endfor %}
+        <tbody>
+          {% for skill, value in values %}
+            {% if skill != "chart" %}
+              <tr>
+                <td align="center">{{ skill }}</td>
+                <td align="center">{{ value }}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endfor %}
+  </div>
+{% endblock content %}

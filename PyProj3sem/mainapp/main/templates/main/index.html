@@ -1,0 +1,38 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Главная страница</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'main/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/css/text_position.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/css/sidepanel.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/css/image_position.css' %}">
+</head>
+<body>
+  <main>
+    {% block header %}
+      {% include "main/header.html" %}
+    {% endblock header %}
+    
+    {% block sidepanel %}
+      {% include "main/sidepanel.html" %}
+    {% endblock sidepanel %}
+    
+    {% block content %}
+      <div class="main">
+        <p class="content-about">
+          {% for item in article %}
+            <img class="image-about" src="{{ item.image.url }}" height="300" width="400">
+            {{ item.content }}
+          {% endfor %}
+        </p>
+      </div>
+    {% endblock content %}
+    
+  </main>
+</body>
+</html>
+

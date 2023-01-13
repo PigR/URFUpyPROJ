@@ -1,0 +1,86 @@
+{
+  "2015": {
+    "Git": 26,
+    "PHP": 23,
+    "Python": 20,
+    "JavaScript": 17,
+    "MySQL": 16,
+    "Django Framework": 14,
+    "Yii": 13,
+    "HTML": 12,
+    "CSS": 12,
+    "Linux": 12
+  },
+  "2016": {
+    "PHP": 105,
+    "Git": 93,
+    "MySQL": 79,
+    "Linux": 65,
+    "JavaScript": 63,
+    "ООП": 56,
+    "Java": 51,
+    "HTML5": 49,
+    "PHP5": 47,
+    "jQuery": 45
+  },
+  "2017": {
+    "PHP": 160,
+    "Git": 154,
+    "MySQL": 153,
+    "JavaScript": 127,
+    "Linux": 98,
+    "ООП": 94,
+    "SQL": 85,
+    "HTML": 80,
+    "CSS": 74,
+    "jQuery": 67
+  },
+  "2018": {
+    "Git": 219,
+    "PHP": 207,
+    "JavaScript": 202,
+    "MySQL": 176,
+    "PostgreSQL": 145,
+    "Java": 137,
+    "HTML": 128,
+    "SQL": 123,
+    "Python": 120,
+    "CSS": 117
+  },
+  "2019": {
+    "Git": 322,
+    "PHP": 283,
+    "JavaScript": 233,
+    "MySQL": 226,
+    "PostgreSQL": 187,
+    "Java": 172,
+    "SQL": 167,
+    "Python": 160,
+    "Linux": 146,
+    "HTML": 132
+  },
+  "2020": {
+    "Git": 417,
+    "PHP": 351,
+    "MySQL": 274,
+    "PostgreSQL": 229,
+    "SQL": 229,
+    "JavaScript": 217,
+    "Python": 210,
+    "Java": 191,
+    "Linux": 190,
+    "ООП": 176
+  },
+  "2021": {
+    "Git": 215,
+    "MySQL": 162,
+    "PHP": 151,
+    "PostgreSQL": 124,
+    "SQL": 122,
+    "ООП": 103,
+    "Python": 91,
+    "Linux": 88,
+    "JavaScript": 77,
+    "Java": 63
+  }
+}

@@ -1,0 +1,39 @@
+{% extends "main/index.html" %}
+{% load static %}
+
+{% block content %}
+  <style type="text/css">
+    legend[class="legend"] {
+      text-align: center;
+    }
+  </style>
+  <div class="main">
+    <p align="center">Вакансии сейчас HeadHunter API (backend-разработчик)</p>
+    {% for vacancy in vacancies %}
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <legend class="legend" align="center">{{ vacancy.title }}</legend align="center">
+            <td align="center">Название</th>
+            <td align="center">Описание</th>
+            <td align="center">Навыки</th>
+            <td align="center">Зарплата</th>
+            <td align="center">Город/Район/Область</th>
+            <td align="center">Дата публикации</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- тут jinja сняла с себя свои полномочия.. -->
+          <tr>
+            <td align="center">{{ vacancy.title }}</td>
+            <td align="center">{{ vacancy.description }}</td>
+            <td align="center">{{ vacancy.skills }}</td>
+            <td align="center">{{ vacancy.salary }} {{ vacancy.currency }}</td>
+            <td align="center">{{ vacancy.city }}</td>
+            <td align="center">{{ vacancy.published_at }}</td>
+          </tr>
+        </tbody>
+      </table>
+    {% endfor %}
+  </div>
+{% endblock content %}
